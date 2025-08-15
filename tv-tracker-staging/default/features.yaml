@@ -18,4 +18,8 @@ flags:
     - key: recently-watched
       name: Recently watched
       type: BOOLEAN_FLAG_TYPE
-      enabled: false
+      enabled: true
+      rollouts:
+        - threshold:
+            percentage: 100
+            value: true
