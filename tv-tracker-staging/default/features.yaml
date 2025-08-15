@@ -7,17 +7,6 @@ flags:
       name: Maintenance Mode Disabled
       type: BOOLEAN_FLAG_TYPE
       enabled: true
-    - key: test-var
-      name: test-var
-      type: VARIANT_FLAG_TYPE
-      enabled: true
-      variants:
-        - key: foo
-          name: Foo
-          attachment: {}
-        - key: bar
-          name: Bar
-          attachment: {}
 segments:
     - key: test-segment
       name: Test-Segment
