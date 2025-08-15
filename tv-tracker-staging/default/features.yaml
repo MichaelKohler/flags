@@ -59,3 +59,7 @@ flags:
       name: Mark all aired as watched
       type: BOOLEAN_FLAG_TYPE
       enabled: true
+      rollouts:
+        - threshold:
+            percentage: 100
+            value: true
