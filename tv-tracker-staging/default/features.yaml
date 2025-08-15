@@ -1,0 +1,9 @@
+version: "1.5"
+namespace:
+    key: default
+    name: Default
+flags:
+    - key: maintenance-mode-disabled
+      name: Maintenance Mode Disabled
+      type: BOOLEAN_FLAG_TYPE
+      enabled: true
