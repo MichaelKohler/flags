@@ -102,4 +102,3 @@ flags:
       rollouts:
         - threshold:
             percentage: 100
-            value: true
