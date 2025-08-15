@@ -71,3 +71,7 @@ flags:
         - threshold:
             percentage: 100
             value: true
+    - key: search
+      name: Search
+      type: BOOLEAN_FLAG_TYPE
+      enabled: true
