@@ -34,4 +34,8 @@ flags:
     - key: password-change
       name: Password Change
       type: BOOLEAN_FLAG_TYPE
-      enabled: false
+      enabled: true
+      rollouts:
+        - threshold:
+            percentage: 100
+            value: true
