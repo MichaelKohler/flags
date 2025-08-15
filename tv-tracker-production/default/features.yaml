@@ -15,3 +15,7 @@ flags:
         - threshold:
             percentage: 100
             value: true
+    - key: recently-watched
+      name: Recently Watched
+      type: BOOLEAN_FLAG_TYPE
+      enabled: false
