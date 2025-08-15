@@ -7,3 +7,7 @@ flags:
       name: Maintenance Mode Disabled
       type: BOOLEAN_FLAG_TYPE
       enabled: true
+segments:
+    - key: test
+      name: test
+      match_type: ALL_MATCH_TYPE
