@@ -87,3 +87,7 @@ flags:
         - threshold:
             percentage: 100
             value: true
+    - key: fetch-from-source
+      name: Fetch from source
+      type: BOOLEAN_FLAG_TYPE
+      enabled: true
