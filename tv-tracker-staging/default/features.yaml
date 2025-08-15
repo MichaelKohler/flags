@@ -21,4 +21,9 @@ flags:
 segments:
     - key: test-segment
       name: Test-Segment
+      constraints:
+        - type: ENTITY_ID_COMPARISON_TYPE
+          property: entityId
+          operator: eq
+          value: foo
       match_type: ALL_MATCH_TYPE
