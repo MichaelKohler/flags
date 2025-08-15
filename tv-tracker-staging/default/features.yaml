@@ -18,3 +18,7 @@ flags:
         - key: bar
           name: Bar
           attachment: {}
+segments:
+    - key: test-segment
+      name: Test-Segment
+      match_type: ALL_MATCH_TYPE
