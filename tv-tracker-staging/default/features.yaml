@@ -67,3 +67,7 @@ flags:
       name: Ignore unwatched on overview
       type: BOOLEAN_FLAG_TYPE
       enabled: true
+      rollouts:
+        - threshold:
+            percentage: 100
+            value: true
