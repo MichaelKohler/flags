@@ -98,7 +98,7 @@ flags:
     - key: signup-disabled
       name: Signup Disabled
       type: BOOLEAN_FLAG_TYPE
-      enabled: false
+      enabled: true
       rollouts:
         - threshold:
             percentage: 100
