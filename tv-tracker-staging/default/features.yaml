@@ -16,7 +16,7 @@ flags:
             percentage: 100
             value: true
     - key: recently-watched
-      name: Recently watched
+      name: Recently Watched Route
       type: BOOLEAN_FLAG_TYPE
       enabled: true
       rollouts:
