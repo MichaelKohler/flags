@@ -7,3 +7,7 @@ flags:
       name: Maintenance Mode Disabled
       type: BOOLEAN_FLAG_TYPE
       enabled: true
+    - key: test-var
+      name: test-var
+      type: VARIANT_FLAG_TYPE
+      enabled: true
