@@ -6,7 +6,7 @@ flags:
     - key: maintenance-mode-disabled
       name: Maintenance Mode Disabled
       type: BOOLEAN_FLAG_TYPE
-      enabled: false
+      enabled: true
     - key: upcoming-route
       name: Upcoming Route
       type: BOOLEAN_FLAG_TYPE
