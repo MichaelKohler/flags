@@ -94,7 +94,6 @@ flags:
       rollouts:
         - threshold:
             percentage: 100
-            value: true
     - key: signup-disabled
       name: Signup Disabled
       type: BOOLEAN_FLAG_TYPE
