@@ -90,7 +90,7 @@ flags:
     - key: fetch-from-source
       name: Fetch from source
       type: BOOLEAN_FLAG_TYPE
-      enabled: true
+      enabled: false
       rollouts:
         - threshold:
             percentage: 100
