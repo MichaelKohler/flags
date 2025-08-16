@@ -78,11 +78,7 @@ flags:
     - key: add-show
       name: Add Show
       type: BOOLEAN_FLAG_TYPE
-      enabled: true
-      rollouts:
-        - threshold:
-            percentage: 100
-            value: true
+      enabled: false
     - key: fetch-from-source
       name: Fetch from source
       type: BOOLEAN_FLAG_TYPE
