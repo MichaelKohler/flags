@@ -78,7 +78,7 @@ flags:
     - key: add-show
       name: Add Show
       type: BOOLEAN_FLAG_TYPE
-      enabled: false
+      enabled: true
     - key: fetch-from-source
       name: Fetch from source
       type: BOOLEAN_FLAG_TYPE
