@@ -38,11 +38,7 @@ flags:
     - key: ignore-unwatched-on-overview
       name: Ignore unwatched on overview
       type: BOOLEAN_FLAG_TYPE
-      enabled: true
-      rollouts:
-        - threshold:
-            percentage: 100
-            value: true
+      enabled: false
     - key: search
       name: Search
       type: BOOLEAN_FLAG_TYPE
