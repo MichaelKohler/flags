@@ -10,7 +10,7 @@ flags:
     - key: upcoming-route
       name: Upcoming Route
       type: BOOLEAN_FLAG_TYPE
-      enabled: false
+      enabled: true
     - key: recently-watched
       name: Recently Watched Route
       type: BOOLEAN_FLAG_TYPE
