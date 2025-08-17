@@ -34,7 +34,7 @@ flags:
     - key: password-change
       name: Password Change
       type: BOOLEAN_FLAG_TYPE
-      enabled: false
+      enabled: true
     - key: delete-account
       name: Delete Account
       type: BOOLEAN_FLAG_TYPE
