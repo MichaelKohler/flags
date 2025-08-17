@@ -42,7 +42,7 @@ flags:
     - key: plex
       name: Plex
       type: BOOLEAN_FLAG_TYPE
-      enabled: false
+      enabled: true
     - key: mark-all-as-watched
       name: Mark all aired as watched
       type: BOOLEAN_FLAG_TYPE
