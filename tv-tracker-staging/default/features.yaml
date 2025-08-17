@@ -14,7 +14,7 @@ flags:
     - key: recently-watched
       name: Recently Watched Route
       type: BOOLEAN_FLAG_TYPE
-      enabled: false
+      enabled: true
     - key: stats
       name: Stats Route
       type: BOOLEAN_FLAG_TYPE
