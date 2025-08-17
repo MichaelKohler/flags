@@ -10,11 +10,7 @@ flags:
     - key: upcoming-route
       name: Upcoming Route
       type: BOOLEAN_FLAG_TYPE
-      enabled: true
-      rollouts:
-        - threshold:
-            percentage: 100
-            value: true
+      enabled: false
     - key: recently-watched
       name: Recently Watched Route
       type: BOOLEAN_FLAG_TYPE
