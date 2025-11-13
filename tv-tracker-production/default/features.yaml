@@ -64,7 +64,7 @@ flags:
             percentage: 100
             value: true
     - key: ignore-unwatched-on-overview
-      name: Ignore unwatched on overview
+      name: Archive
       type: BOOLEAN_FLAG_TYPE
       enabled: true
       rollouts:
