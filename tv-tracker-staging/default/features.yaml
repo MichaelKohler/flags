@@ -62,3 +62,8 @@ flags:
       rollouts:
         - threshold:
             percentage: 100
+    - key: passkey-registration
+      name: Passkey Registration
+      type: BOOLEAN_FLAG_TYPE
+      description: Enables passkey registration
+      enabled: true
