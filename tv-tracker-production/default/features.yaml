@@ -103,3 +103,8 @@ flags:
         - threshold:
             percentage: 100
             value: true
+    - key: passkey-registration
+      name: Passkey Registration
+      type: BOOLEAN_FLAG_TYPE
+      description: Enables the passkey registration
+      enabled: true
