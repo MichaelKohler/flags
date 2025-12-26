@@ -67,3 +67,7 @@ flags:
       type: BOOLEAN_FLAG_TYPE
       description: Enables passkey registration
       enabled: true
+      rollouts:
+        - threshold:
+            percentage: 100
+            value: true
